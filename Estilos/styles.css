@@ -1,0 +1,39 @@
+.contenedor {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    border: 2px solid rgb(225, 48, 48);
+    height: 100vh;
+  }
+  
+  .columna1{
+    width: 40%;
+    background-color: #22d931;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+.columna2{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.transicion {
+    width: 40%;
+    height: 100vh;
+    background: rgb(0, 255, 119);
+    transition: width 1s, height 1s;
+}
+
+.transicion:hover{
+        width: 100%;
+        height: 100vh;
+}
